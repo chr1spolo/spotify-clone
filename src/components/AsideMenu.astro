@@ -6,16 +6,25 @@ import SideItemMenu from "./SideItemMenu.astro";
 ---
 
 <nav class="flex flex-col flex-1 gap-2">
-  <div class="bg-zinc-900 rounded-lg p-2">
+  <div class="bg-zinc-900 rounded-lg py-2 px-3">
     <ul>
       <SideItemMenu href="/#">
         <Home color="#fff" />
-         Home
+         Inicio
       </SideItemMenu>
 
       <SideItemMenu href="/#">
         <Search color="#fff" />
-         Search
+         Buscar
+      </SideItemMenu>
+    </ul>
+  </div>
+
+  <div class="bg-zinc-900 rounded-lg py-2 px-3 flex-1">
+    <ul>
+      <SideItemMenu href="/#">
+        <LibraryIcon color="#fff" />
+         Tu biblioteca
       </SideItemMenu>
     </ul>
   </div>
